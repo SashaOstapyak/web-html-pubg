@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header id="hom">
+    <header id="home">
         <nav>
             <div class="logo">Skins for PUBGM</div>
             <ul class="menu">
-                <li><a href="#Home">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#products">products</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="Cart.html">Cart</a></li>
@@ -69,18 +69,21 @@
     </main>
     <footer>
         <h2 id="#contact">Contact</h2>
-        <form method="" action="https://formspree.io/f/xwkaegyp">
+        <form method= "POST" action="https://formspree.io/f/xwkaegyp">
             <label>
-                User ID: <input type="text" placeholder="User id">
+                User ID: <input name="user-name" type="text" placeholder="User id">
             </label>
             <br>
             <label>
-                User email: <input type="email" placeholder="User email" required>
+                User email: <input name="user-email" type="email" placeholder="User email" required>
             </label>
             <br>
             <label>
-               mesegge: <input type="text" placeholder="Your  mesegge:" >
+              Your mesesge: <textarea name="massege"></textarea>
             </label>
+            <br>
+            <input  type="submit">
+            <input  type="reset">
         </form>
     </footer>
 </body>

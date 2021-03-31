@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 7;
+}
+
+header{
+   color: maroon;
+    background-color: khaki;
+}
+
+header#home nav .menu a::before {
+   content: "<";
+}
+
+header#home nav .menu a::after {
+   content: ">"; 
+}
+
+body{
+    color: rgba(91, 4, 153, 0.856);
+    background-color: bisque;
+}
+footer{
+    color: midnightblue;
+}
+.logo{
+    text-transform: uppercase;
+}
+
+p:hover {
+text-decoration: underline;
+}
+
+p::first-line {
+    font-weight: bold;
+}

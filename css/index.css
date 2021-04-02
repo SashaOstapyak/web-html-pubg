@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=New+Tegomin&display=swap');
+
 * {
     margin: 0;
     padding: 7;
 }
 
+:root{
+    font-size: 18px;
+}
+
 header{
    color: maroon;
-    background-color: khaki;
+    background-color: lightpink;
 }
 
 header#home nav .menu a::before {
@@ -24,6 +30,8 @@ footer{
     color: midnightblue;
 }
 .logo{
+    font-family: 'New Tegomin', serif;
+    font-size: 3.5rem;
     text-transform: uppercase;
 }
 
@@ -33,4 +41,16 @@ text-decoration: underline;
 
 p::first-line {
     font-weight: bold;
+}
+
+.product-list article img {
+    border: 2px solid blueviolet;
+    padding: 10px;
+    display: block;
+    margin: 40px;
+    background-color: rgb(255, 216, 143);
+}
+
+.menu{
+    font-family: 'DotGothic16', sans-serif;
 }
